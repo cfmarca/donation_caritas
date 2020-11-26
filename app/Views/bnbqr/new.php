@@ -1,4 +1,4 @@
-<form id="form_bnbqr" validate action="<?= base_url() ?>/bnbqr/qr" method="post">
+<form id="form_bnbqr" validate action="<?= base_url() ?>/bnbqr/generateqr" method="post">
 
     <fieldset>
 

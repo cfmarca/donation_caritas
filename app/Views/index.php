@@ -29,7 +29,7 @@
         <div class="form-group col-12 col-sm-12 col-md-3">
             <br />
             <button type="button" name="tigo" class="btn btn-outline-danger" value="tigo"
-                onclick="location.href='<?php echo base_url() ?>/tigo'">Tigo
+                onclick="location.href='<?php echo base_url() ?>/tigo'">    Tigo
                 Money</button>
             <br /><br /><img src="images/logo_tigo_money.png" alt="Tigo Money" width="200">
         </div>

@@ -5,13 +5,7 @@
         ingresa a la aplicación de tu banco y escanea el código QR para realizar tu donativo. </div>
 
     <div>
-        <img
-            src="<?= base_url() ?> <?php if(isset ($qrimage)) {echo "".$qrimage[0];} else {echo "/images/logo_simple.png";} ?>">
-    </div>
-
-    <div>
-        <img
-            src="<?= base_url() ?> <?php if(isset ($qr)) {echo "".$qr[1];} else {echo "/images/logo_simple.png";} ?>">
+        <img src="data:image/png;base64,<?php if(isset ($qr)) {echo "".$qr;} else {echo "/images/logo_simple.png";} ?>" />
     </div>
 
     <div>
